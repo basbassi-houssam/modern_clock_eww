@@ -10,7 +10,7 @@
   (box :class "clock-container"
        :orientation "v"
        :space-evenly false
-       :spacing -10
+       :spacing -6
     (box :class "day-box"
          :halign "center"
       (label :class "day"
@@ -25,8 +25,22 @@
              :text current-time))))
 
 ;; Window definition
-(defwindow clock-window
+(defwindow clock-window-0
   :monitor 0
+  :geometry (geometry :x "20px"
+                      :y "20px"
+                      :width "200px"
+                      :height "120px"
+                      :anchor "center")
+  :stacking "fg"
+  :reserve (struts :distance "0px" :side "top")
+  :windowtype "dock"
+  :wm-ignore false
+  (clock))
+
+;; Window definition
+(defwindow clock-window-1
+  :monitor 1
   :geometry (geometry :x "20px"
                       :y "20px"
                       :width "200px"
