@@ -9,7 +9,7 @@
 
 .day {
   font-family: 'Anurati', 'Impact', 'Arial Black', sans-serif;
-  font-size: 84px;
+  font-size: 100px;
   font-weight: 400;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -42,33 +42,3 @@
 .time-box {
   margin: 0;
 }
-
-// Alternative color schemes
-
-// Bright variant
-/*
-.day {
-  color: #ffffff;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
-}
-
-.date {
-  color: #88c0d0;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-}
-
-.time {
-  color: #a3be8c;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-}
-*/
-
-// Minimal monochrome
-/*
-.day,
-.date,
-.time {
-  color: #ffffff;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-}
-*/
